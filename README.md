@@ -34,44 +34,12 @@ Youtube API key.
 
 # 
 
-2. Requirement Libraries to Install
-pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchemy, pymysql, pymysql, pandas, numpy, plotly-express, streamlit.
+2. Requirements and  Libraries 
+All requirements and dependencies can be found in the requirements.txt file 
 
 # 
 
-3. Import Libraries
-
-Youtube API libraries
-
-import googleapiclient.discovery
-from googleapiclient.discovery import build
-File handling libraries
-
-import json
-import re
-MongoDB
-
-import pymongo
-
-SQL libraries
-
-import mysql.connector
-import sqlalchemy
-from sqlalchemy import create_engine
-import pymysql
-pandas, numpy
-
-import pandas as pd
-import numpy as np
-
-Dashboard libraries
-
-import streamlit as st
-import plotly.express as px
-
-# 
-
-4. E T L Process
+3. E T L Process
 
 a) Extract data
 Extract the particular youtube channel data by using the youtube channel id provided by the user, with the help of the youtube API developer console. The user has to use his own API key. 
@@ -87,7 +55,7 @@ Please note that you have to change the password from 'root' to your root user p
 
 # 
 
-5. E D A Process and Framework
+4. E D A Process and Framework
   a) Access MySQL DB
   Create a connection to the MySQL server and access the specified MySQL DataBase by using pymysql library and access tables.
 
